@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer/>
+        <condition table="var__m_sys_decision_input_e40884462f8f0010297aea5ef699b61e">u_request_type=legal^u_what_neededINfacilities1,facilities2,hr1,hr2,legal1,legal2,other^ORu_priorityIN1,2^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/>
+            <item display_value="facilities1,facilities2,hr1,hr2,legal1,legal2,other" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="facilities1,facilities2,hr1,hr2,legal1,legal2,other"/>
+            <item display_value="1,2" endquery="false" field="u_priority" goto="false" newquery="false" operator="IN" or="true" value="1,2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">e40884462f8f0010297aea5ef699b61e</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_e40884462f8f0010297aea5ef699b61e</input_table>
+        <label>High Priority Legal</label>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:32:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0a1188e2f8f0010297aea5ef699b6f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>High Priority Legal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_question_b0a1188e2f8f0010297aea5ef699b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:57:36</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>203b24cddb18bf049df22f17d4961969</instance_id>
+        <instance_name>dev75748</instance_name>
+        <name>sys_decision_question_b0a1188e2f8f0010297aea5ef699b6f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer/><condition table="var__m_sys_decision_input_e40884462f8f0010297aea5ef699b61e">u_request_type=legal^u_what_neededINfacilities1,facilities2,hr1,hr2,legal1,legal2,other^ORu_priorityIN1,2^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/><item display_value="facilities1,facilities2,hr1,hr2,legal1,legal2,other" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="facilities1,facilities2,hr1,hr2,legal1,legal2,other"/><item display_value="1,2" endquery="false" field="u_priority" goto="false" newquery="false" operator="IN" or="true" value="1,2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="Assignee Category Decision">e40884462f8f0010297aea5ef699b61e</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_e40884462f8f0010297aea5ef699b61e</input_table><label>High Priority Legal</label><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 20:32:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0a1188e2f8f0010297aea5ef699b6f3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>High Priority Legal</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_decision_question_b0a1188e2f8f0010297aea5ef699b6f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 20:57:36</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-1436258613</payload_hash>
+        <record_name>High Priority Legal</record_name>
+        <reverted_from/>
+        <source>361576b12f4b0010297aea5ef699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:57:36</sys_created_on>
+        <sys_id>b3879cc22fcf0010297aea5ef699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705f3de26b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:57:36</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>3f879cc28ccf00104c0bf51f373a4fd9</update_guid>
+        <update_guid_history>3f879cc28ccf00104c0bf51f373a4fd9:-1436258613,98e614c29acf001070f9d949dac00137:-1766097505,9bd11c8ed58f00107568612086661735:1003793185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 21:09:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>6e87487830644a7d92464a6cd4ca4e19</sys_id>
+        <sys_metadata>b0a1188e2f8f0010297aea5ef699b6f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>High Priority Legal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_decision_question_b0a1188e2f8f0010297aea5ef699b6f3</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_b0a1188e2f8f0010297aea5ef699b6f3">b3879cc22fcf0010297aea5ef699b6da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 21:09:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
